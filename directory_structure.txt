@@ -1,0 +1,15 @@
+maxi-flipbook/
+├── app/
+│   ├── layout.js             # RootLayout component (root-layout.js)
+│   ├── page.js               # HomePage component (home-page.js)
+│   ├── adventure/
+│   │   └── page.js           # AdventurePage component (adventure-page.js)
+│   └── projects/
+│       └── page.js           # ProjectsPage component (projects-page.js)
+├── components/
+│   └── Timeline.jsx          # Timeline component (timeline-component.js)
+├── public/
+│   └── ...                   # Static assets
+├── package.json
+├── next.config.js
+└── tailwind.config.js
