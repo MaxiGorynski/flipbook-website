@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="min-h-screen bg-white dark:bg-neutral-950">
-        <header className="w-full bg-white/80 dark:bg-neutral-900/80 backdrop-blur-sm sticky top-0 z-50 border-b border-neutral-200 dark:border-neutral-800">
+        <header className="w-full bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm sticky top-0 z-50 border-b border-neutral-200 dark:border-neutral-800">
           <div className="max-w-7xl mx-auto px-4 md:px-8 py-4">
             <div className="flex items-center justify-between">
               <Link href="/" className="text-xl font-bold text-blue-600 dark:text-blue-400">
